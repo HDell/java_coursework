@@ -1,9 +1,14 @@
-import java.util.Scanner;
+// Handell Desulme
+// 2/17/2019
+// Assignment 4. practice with static methods and strings
+//
+// This program contains multiple string algorithms in static methods to solve a variety of problems.
+// NOTE: I made the last method case sensitive because of the example in the comment & there was no JUnit test to specify otherwise.
 
-public class PracticeStrings {
+public class SomePracticeMethods {
     public static void main(String args[]){
-        char c = 'm';
-        String s = "something";
+        char c = 'M';
+        String s = "soMething";
         String t = "pleemt";
         String no = "ooooo";
         String reverse = "Temple";
@@ -14,7 +19,7 @@ public class PracticeStrings {
         String suffix = "bug";
         System.out.println(inTU(c)); //true
         System.out.println(indexOfFirstTULetter(s)); //2
-        System.out.println(indexOfFirstTULetter(s, 3)); //3
+        System.out.println(indexOfFirstTULetter("elephant", 2)); //2
         System.out.println(indexOfLastTULetter(s)); //4
         System.out.println(allTempleLetters(t)); //true
         System.out.println(noTempleLetters(no)); //true
@@ -22,7 +27,7 @@ public class PracticeStrings {
         System.out.println(reversed(reverse)); //"elpmeT"
         System.out.println(numOccurrences(h, n)); //2
         System.out.println(sameInReverse(palindrome)); //true
-        System.out.println(appendIfMissing(base, suffix));
+        System.out.println(appendIfMissing(base, suffix)); //"lightbugningbug"
     }
 
     /*
@@ -31,7 +36,7 @@ public class PracticeStrings {
     public static boolean inTU(char c) {
         String temple = "temple";
         for (int i = 0; i < temple.length(); i++){
-            if (c==temple.charAt(i)){
+            if (c==temple.toUpperCase().charAt(i) || c==temple.toLowerCase().charAt(i)){
                 return true;
             }
         }
@@ -47,7 +52,7 @@ public class PracticeStrings {
         String temple = "temple";
         for (int i = 0; i < s.length(); i++){
             for (int j = 0; j < temple.length(); j++){
-                if (s.charAt(i)==temple.charAt(j)){
+                if (s.charAt(i)==temple.toUpperCase().charAt(j) || s.charAt(i)==temple.toLowerCase().charAt(j)) {
                     return s.indexOf(s.charAt(i));
                 }
             }
@@ -66,8 +71,8 @@ public class PracticeStrings {
         String temple = "temple";
         for (int i = startPosition; i < s.length(); i++){
             for (int j = 0; j < temple.length(); j++){
-                if (s.charAt(i)==temple.charAt(j)){
-                    return s.indexOf(s.charAt(i));
+                if (s.charAt(i)==temple.toUpperCase().charAt(j) || s.charAt(i)==temple.toLowerCase().charAt(j)){
+                    return s.length() - s.substring(i).length();
                 }
             }
         }
@@ -83,7 +88,7 @@ public class PracticeStrings {
         String temple = "temple";
         for (int i = s.length()-1; i >= 0; i--){
             for (int j = 0; j < temple.length(); j++){
-                if (s.charAt(i)==temple.charAt(j)){
+                if (s.charAt(i)==temple.toUpperCase().charAt(j) || s.charAt(i)==temple.toLowerCase().charAt(j)){
                     return s.indexOf(s.charAt(i), i);
                 }
             }
