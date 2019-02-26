@@ -12,8 +12,8 @@ This was originally done in a single main() method, but was broken down into oth
 It is therefore a bit experimental, and it may be the case that some of these methods (e.g. randomNum()) were unnecessary.
 The isMatch() function wasn't required, but I thought it was a more interesting way to generalize, instead of doing something like:
 
-    (response.length() <= 3 && (response.charAt(0) == 'y' || response.charAt(0) == 'Y'))
-    & something similar for "n"
+    if (response.length() <= 3 && (response.charAt(0) == 'y' || response.charAt(0) == 'Y'))
+    - for "yes"
 
 Lastly, the exception handling was necessary for non-integer inputs.
  */
