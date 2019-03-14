@@ -8,7 +8,7 @@ public class SouthieTest {
 
     @Test
     public void isPlaceholder1(){
-        //First test;
+        assertTrue(Southie.indexOfFirstVowel("a should be 1",0)==0);
     }
 
     @Test
