@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3403295c-509a-42da-af91-e490a2c96cb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignmentSix/Southie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignmentSix/Southie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignmentSix/SouthieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignmentSix/SouthieTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assignmentSix/Southie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="152" column="60" lean-forward="true" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
+            <state relative-caret-position="361">
+              <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -107,7 +105,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552600440093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552600510184" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -170,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552422423870</updated>
-      <workItem from="1552422427824" duration="10253000" />
+      <workItem from="1552422427824" duration="10311000" />
     </task>
     <servers />
   </component>
@@ -207,7 +205,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10253000" />
+    <option name="totallyTimeSpent" value="10311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -221,7 +219,7 @@
       <window_info id="Learn" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -229,7 +227,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignmentSix/Southie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="152" column="60" lean-forward="true" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
+        <state relative-caret-position="361">
+          <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
         </state>
       </provider>
     </entry>
