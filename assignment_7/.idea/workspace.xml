@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3403295c-509a-42da-af91-e490a2c96cb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assignmentSix/Southie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignmentSix/Southie.java" afterDir="false" />
+    <list default="true" id="128d8fa2-47fe-41cf-9feb-a5221649ec70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../assignment_6/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/Southie_Styles.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/out/production/Southie_Styles/assignmentSix/Southie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/out/production/Southie_Styles/assignmentSix/SouthieTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/src/assignmentSix/Southie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigment_6/src/assignmentSix/SouthieTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,24 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/assignmentSix/Southie.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+            <state relative-caret-position="406">
+              <caret line="233" column="21" lean-forward="true" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
+              <folding>
+                <element signature="e#8443#8444#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignmentSix/SouthieTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+            <state relative-caret-position="178">
+              <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +73,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/assignmentSix/SouthieTest.java" />
-        <option value="$PROJECT_DIR$/src/assignmentSix/Southie.java" />
+        <option value="$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java" />
+        <option value="$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java" />
       </list>
     </option>
   </component>
@@ -67,35 +88,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Southie_Styles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assigment_6" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment_7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment_7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Southie_Styles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assigment_6" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Southie_Styles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assigment_6" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment_7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment_7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Southie_Styles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assigment_6" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment_7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment_7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignmentSix" type="462c0819:PsiDirectoryNode" />
+              <item name="assignmentSeven" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,7 +121,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552600510184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553566929724" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -121,40 +137,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Southie">
-    <configuration name="SouthieTest.isPlaceholder1" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
-      <module name="Southie_Styles" />
+  <component name="RunManager">
+    <configuration name="ArrayPracticeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment_7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignmentSix.*" />
+          <option name="PATTERN" value="assignmentSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assignmentSix" />
-      <option name="MAIN_CLASS_NAME" value="assignmentSix.SouthieTest" />
-      <option name="METHOD_NAME" value="isPlaceholder1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Southie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignmentSix.Southie" />
-      <module name="Southie_Styles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignmentSix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="assignmentSeven" />
+      <option name="MAIN_CLASS_NAME" value="assignmentSeven.ArrayPracticeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Southie" />
-        <item itemvalue="Android JUnit.SouthieTest.isPlaceholder1" />
+        <item itemvalue="JUnit.ArrayPracticeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,49 +164,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3403295c-509a-42da-af91-e490a2c96cb9" name="Default Changelist" comment="" />
-      <created>1552422423870</created>
+      <changelist id="128d8fa2-47fe-41cf-9feb-a5221649ec70" name="Default Changelist" comment="" />
+      <created>1553556921761</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552422423870</updated>
-      <workItem from="1552422427824" duration="10311000" />
+      <updated>1553556921761</updated>
+      <workItem from="1553556924867" duration="9441000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 14h 48m 32s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 02m 21s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 14h 48m 36s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 05m 10s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 14h 48m 43s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 14h 59m 56s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 15h 00m 02s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 15h 00m 11s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 15h 00m 19s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 15h 00m 34s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 15h 00m 44s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="SouthieTest_isPlaceholder1 - 2019.03.14 at 15h 09m 17s.xml">
-      <configuration name="SouthieTest.isPlaceholder1" configurationId="AndroidJUnit" />
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 11m 23s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10311000" />
+    <option name="totallyTimeSpent" value="9441000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -217,9 +206,9 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -227,11 +216,11 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -247,22 +236,23 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assignmentSix/SouthieTest.java">
+    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        <state relative-caret-position="406">
+          <caret line="233" column="21" lean-forward="true" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#8443#8444#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignmentSix/Southie.java">
+    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+        <state relative-caret-position="178">
+          <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
