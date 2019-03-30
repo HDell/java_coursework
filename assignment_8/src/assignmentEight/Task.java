@@ -7,6 +7,7 @@ package assignmentEight;
 // This program ...
 
 import java.time.LocalDateTime;
+import java.util.Scanner;
 
 public class Task {
 
@@ -26,13 +27,21 @@ public class Task {
 
     Task (String name, int priority, int estMinsToComplete) {
         this.name = name;
-        this.priority = priority;
+        if (priority>=0) {
+            this.priority = priority;
+        } else {
+            this.priority = 0;
+        }
         this.estMinsToComplete = estMinsToComplete;
     }
 
     Task (String name, int priority, LocalDateTime whenDue, int estMinsToComplete) {
         this.name = name;
-        this.priority = priority; //add restrictions to constructor and mutator methods
+        if (priority>=0) {
+            this.priority = priority;
+        } else {
+            this.priority = 0;
+        }
         this.whenDue = whenDue;
         this.estMinsToComplete = estMinsToComplete;
     }
@@ -57,15 +66,43 @@ public class Task {
     }
 
     public boolean overdue() {
-        return LocalDateTime.now().isAfter(this.whenDue);
+        if (whenDue!=null) {
+            return LocalDateTime.now().isAfter(this.whenDue);
+        } else {
+            Scanner in = new Scanner(System.in);
+            LocalDateTime dateTime = setTime(in);
+            this.whenDue = dateTime;
+            return this.overdue();
+        }
+    }
+
+    public static LocalDateTime setTime(Scanner in) {
+        System.out.println("When is this task due?");
+        System.out.print("Year: ");
+        int year = Integer.parseInt(in.next());
+        System.out.print("Month: ");
+        int month = Integer.parseInt(in.next());
+        System.out.print("Day: ");
+        int day = Integer.parseInt(in.next());
+        System.out.print("Hour of Day (0-23): ");
+        int hour = Integer.parseInt(in.next());
+        System.out.print("Min (of hour) (0-59): ");
+        int min = Integer.parseInt(in.next());
+        return LocalDateTime.of(year, month, day, hour, min);
     }
 
     @Override
     public String toString() {
-        return ("Name: "+name+", "
-                +"Priority: "+priority+", "
-                +"est Min Left: "+estMinsToComplete+", "
-                +"Due: "+whenDue+".");
+        if (whenDue!=null) {
+            return ("Name: " + name + ", "
+                    + "Priority: " + priority + ", "
+                    + "est Min Left: " + estMinsToComplete + ", "
+                    + "Due: " + whenDue + ".");
+        } else {
+            return ("Name: " + name + ", "
+                    + "Priority: " + priority + ", "
+                    + "est Min Left: " + estMinsToComplete + ". ");
+        }
     }
 
     //Setters - Mutator Methods
@@ -82,11 +119,17 @@ public class Task {
     }
 
     public void increasePriority(int amount) {
-        this.priority+=amount;
+        if (amount>0) {
+            this.priority += amount;
+        }
     }
 
     public void decreasePriority(int amount) {
-        this.priority-=amount;
+        if (amount>priority) {
+            this.priority=0;
+        } else {
+            this.priority -= amount;
+        }
     }
 
 }

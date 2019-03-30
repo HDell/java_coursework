@@ -54,18 +54,18 @@ public class HoneyDoList {
     }
 
     public int shortestTime() {
-        int shortestTime = -1;
+        int shortestTimeIndex = -1;
         for (int i = 0; i <tasks.length; i++) {
             if (tasks[i]!=null) {
                 int thisTasksTime = tasks[i].getEstMinsToComplete();
                 if (i == 0) {
-                    shortestTime = thisTasksTime;
-                } else if (shortestTime > thisTasksTime) {
-                    shortestTime = thisTasksTime;
+                    shortestTimeIndex = 0;
+                } else if (tasks[shortestTimeIndex].getEstMinsToComplete() > thisTasksTime) {
+                    shortestTimeIndex = i;
                 }
             }
         }
-        return shortestTime;
+        return shortestTimeIndex;
     }
 
     public Task completeTask(int index) {
@@ -86,9 +86,26 @@ public class HoneyDoList {
         }
     }
 
-    /*public Task[] overdueTasks() {
-        HoneyDoList
-    }*/
+    public Task[] overdueTasks() { //returns an array of Task consisting of only the items in tasks[] that are overdue.
+        int count = 0;
+        int index = 0;
+        for (int i = 0; i<numTasks; i++) {
+            if (tasks[i].overdue()) {
+                count++;
+            }
+        }
+        if (count>0) {
+            Task[] newTasks = new Task[count];
+            for (int i = 0; i<numTasks; i++) {
+                if (tasks[i].overdue()) {
+                    newTasks[index] = tasks[i];
+                    index++;
+                }
+            }
+            return newTasks;
+        }
+        return null;
+    }
 
         //Some Additional Getters
 
@@ -111,7 +128,8 @@ public class HoneyDoList {
         return newTasks;
     }
 
-    public void addTask() {
+    public void addTask() throws NumberFormatException {
+        //No error checking has been implemented as this version of addTask() wasn't necessary; see addTask(Task newTask) below
         Scanner in = new Scanner(System.in);
         System.out.print("Please name your task: ");
         String name = in.nextLine();
@@ -119,26 +137,31 @@ public class HoneyDoList {
         int priority =  Integer.parseInt(in.next());
         System.out.print("How many minutes do you estimate it will take to complete this task? (enter integer): ");
         int estMinsToComplete = Integer.parseInt(in.next());
-        System.out.println("When is this task due?");
-        System.out.print("Year: ");
-        int year = Integer.parseInt(in.next());
-        System.out.print("Month: ");
-        int month = Integer.parseInt(in.next());
-        System.out.print("Day: ");
-        int day = Integer.parseInt(in.next());
-        System.out.print("Hour of Day (0-23): ");
-        int hour = Integer.parseInt(in.next());
-        System.out.print("Min (of hour) (0-59): ");
-        int min = Integer.parseInt(in.next());
-        try {
-            tasks[numTasks] = new Task(name, priority, LocalDateTime.of(year, month, day, hour, min),estMinsToComplete);
-            numTasks++;
-        } catch (IndexOutOfBoundsException e) {
-            Task[] newTasks = expandTaskCapacity();
-            newTasks[numTasks] = new Task(name, priority, LocalDateTime.of(year, month, day, hour, min),estMinsToComplete);
-            tasks = newTasks;
-            numTasks++;
+        System.out.print("Do you want to add a due date? (y/n): ");
+        String response = in.next();
+        if (isMatch(response, "yes")){
+            LocalDateTime dateTime = Task.setTime(in);
+            try {
+                tasks[numTasks] = new Task(name, priority, dateTime,estMinsToComplete);
+                numTasks++;
+            } catch (IndexOutOfBoundsException e) {
+                Task[] newTasks = expandTaskCapacity();
+                newTasks[numTasks] = new Task(name, priority, dateTime,estMinsToComplete);
+                tasks = newTasks;
+                numTasks++;
+            }
+        } else {
+            try {
+                tasks[numTasks] = new Task(name, priority,estMinsToComplete);
+                numTasks++;
+            } catch (IndexOutOfBoundsException e) {
+                Task[] newTasks = expandTaskCapacity();
+                newTasks[numTasks] = new Task(name, priority, estMinsToComplete);
+                tasks = newTasks;
+                numTasks++;
+            }
         }
+
     }
 
     public void addTask(Task newTask) {
@@ -152,8 +175,16 @@ public class HoneyDoList {
         }
     }
 
-    /*
--extra credit: overdueTasks() returns an array of Task consisting of only the items in tasks[] that are overdue.
-     */
+    public static boolean isMatch(String response, String match){
+        if (response.length()>match.length()){
+            return false;
+        }
+        for (int i = 0; i < response.length(); i++){
+            if(response.toLowerCase().charAt(i)!=match.toLowerCase().charAt(i)){
+                return false;
+            }
+        }
+        return true;
+    }
 
 }
