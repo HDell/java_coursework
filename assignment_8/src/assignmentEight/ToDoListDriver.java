@@ -1,5 +1,11 @@
 package assignmentEight;
 
+// Handell Desulme
+// 4/1/2019
+// Assignment 8. Warm Up with Objects
+//
+// This program creates a task class and a task manager class that organize and manipulate task information
+
 public class ToDoListDriver {
 
     public static void main(String[] args) {

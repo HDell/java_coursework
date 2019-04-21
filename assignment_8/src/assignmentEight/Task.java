@@ -1,11 +1,5 @@
 package assignmentEight;
 
-// Handell Desulme
-// 4/1/2019
-// Assignment 8. Warm Up with Objects
-//
-// This program ...
-
 import java.time.LocalDateTime;
 import java.util.Scanner;
 

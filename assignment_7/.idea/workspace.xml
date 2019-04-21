@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128d8fa2-47fe-41cf-9feb-a5221649ec70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../assignment_6/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/Southie_Styles.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/out/production/Southie_Styles/assignmentSix/Southie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/out/production/Southie_Styles/assignmentSix/SouthieTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/src/assignmentSix/Southie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assigment_6/src/assignmentSix/SouthieTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/assignment_8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/SampleSubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,24 +21,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="233" column="21" lean-forward="true" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
+            <state relative-caret-position="-2428">
+              <caret selection-end-line="6" selection-end-column="51" />
               <folding>
+                <element signature="e#8421#8422#0" expanded="true" />
                 <element signature="e#8443#8444#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+            <state relative-caret-position="4041">
+              <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,6 +77,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,8 +101,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,7 +110,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553566929724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553569703943" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -169,7 +158,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553556921761</updated>
-      <workItem from="1553556924867" duration="9441000" />
+      <workItem from="1553556924867" duration="9954000" />
+      <workItem from="1553782232001" duration="1164000" />
     </task>
     <servers />
   </component>
@@ -183,9 +173,27 @@
     <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 11m 23s.xml">
       <configuration name="ArrayPracticeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 20m 15s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 20m 22s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 20m 33s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 20m 39s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 22m 12s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayPracticeTest - 2019.03.25 at 22h 22m 43s.xml">
+      <configuration name="ArrayPracticeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9441000" />
+    <option name="totallyTimeSpent" value="11118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,58 +208,59 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java">
+    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="233" column="21" lean-forward="true" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
+        <state relative-caret-position="4041">
+          <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
           <folding>
-            <element signature="e#8443#8444#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+        <state relative-caret-position="-2428">
+          <caret selection-end-line="6" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#8421#8422#0" expanded="true" />
+            <element signature="e#8443#8444#0" expanded="true" />
           </folding>
         </state>
       </provider>
