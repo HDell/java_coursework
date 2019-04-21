@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="382a742c-94f1-40f8-97db-484389447391" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../assignment_0/src/ArrayExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_0/src/ArrayExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_0/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_0/src/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_8/out/production/assignment_8/assignmentEight/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_8/out/production/assignment_8/assignmentEight/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_8/out/production/assignment_8/assignmentEight/ToDoListDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_8/out/production/assignment_8/assignmentEight/ToDoListDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/ToDoListDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/ToDoListDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_9/src/assignment9/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_9/src/assignment9/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_9/src/assignment9/FillInTheBlankQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_9/src/assignment9/FillInTheBlankQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_9/src/assignment9/MultipleChoiceQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_9/src/assignment9/MultipleChoiceQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_9/src/assignment9/ObjectiveQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_9/src/assignment9/ObjectiveQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_9/src/assignment9/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_9/src/assignment9/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_9/src/assignment9/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_9/src/assignment9/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="382a742c-94f1-40f8-97db-484389447391" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +77,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555808727368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555808906007" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -133,12 +117,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555714134915</updated>
-      <workItem from="1555714145248" duration="7588000" />
+      <workItem from="1555714145248" duration="7861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7588000" />
+    <option name="totallyTimeSpent" value="7861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="801" extended-state="0" />
