@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128d8fa2-47fe-41cf-9feb-a5221649ec70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment_8/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment_8/assignment_8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/SampleSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment_8/src/assignmentEight/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment_10/out/production/assignment_10/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_10/out/production/assignment_10/Hangman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment_10/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_10/src/Hangman.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +18,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2428">
+            <state relative-caret-position="-1088">
               <caret selection-end-line="6" selection-end-column="51" />
               <folding>
                 <element signature="e#8421#8422#0" expanded="true" />
@@ -38,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4041">
+            <state relative-caret-position="4035">
               <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,7 +70,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -101,6 +93,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,6 +153,7 @@
       <updated>1553556921761</updated>
       <workItem from="1553556924867" duration="9954000" />
       <workItem from="1553782232001" duration="1164000" />
+      <workItem from="1556289618931" duration="242000" />
     </task>
     <servers />
   </component>
@@ -193,7 +187,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11118000" />
+    <option name="totallyTimeSpent" value="11360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -206,9 +200,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -244,23 +237,23 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4041">
-          <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2428">
+        <state relative-caret-position="-1088">
           <caret selection-end-line="6" selection-end-column="51" />
           <folding>
             <element signature="e#8421#8422#0" expanded="true" />
             <element signature="e#8443#8444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignmentSeven/ArrayPracticeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4035">
+          <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

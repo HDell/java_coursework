@@ -2,7 +2,7 @@
 // 4/19/2019
 // Assignment 10. Cheating Word Guessing Game
 //
-// ...
+// Allows the user to play a game of hangman. However, the computer cheats to make the game more difficult.
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,6 @@ public class Hangman {
         int totalGuesses = 6;
         int randLength = rand.nextInt(RAND_MAX-RAND_MIN+1)+RAND_MIN; //(0-6 + 4->4+10)
 
-        String view = "";
         String lastGuess;
         String[] choiceWords = new String[randLength];
 
@@ -53,57 +52,60 @@ public class Hangman {
 
         for(int i = 0; i<dictionaryWords.size(); i++) {
             if (dictionaryWords.get(i).length()==randLength) {
-                correctWords.add(dictionaryWords.get(i));
+                correctWords.add(dictionaryWords.get(i).toLowerCase());
             }
         }
 
         //Printing
-        System.out.println(randLength);
 
+        //vvv COMMENT THIS OUT IN ACTUAL GAME PLAY TO HIDE LENGTH OF WORDS
+        System.out.println(randLength);
+        //^^^ Comment
+
+        //vvv COMMENT THIS OUT IN ACTUAL GAME PLAY TO HIDE WORDS
         for(int i = 0; i<correctWords.size(); i++) {
             System.out.println(correctWords.get(i));
         }
-
-        view += "__";
-        for (int i = 0; i<randLength-1; i++) {
-            view += " __";
-        }
-        System.out.println(view);
+        //^^^ Comment
 
         while(totalGuesses>0){
+            System.out.println();
             System.out.println(populateView(choiceWords));
             System.out.println("Total Guesses Remaining: "+totalGuesses);
             System.out.print("Make a guess (word or letter): ");
             lastGuess = in.next();
-            if (correctWords.size() > 1) { //Cheat Phase
-                for (int i = 0; i < correctWords.size(); i++) {
+            lastGuess = lastGuess.toLowerCase();
+            for (int i = 0; i < correctWords.size(); i++) {
+                if (correctWords.size() > 1) {
                     if (lastGuess.length() > 1 && correctWords.get(i).equals(lastGuess)) {
                         correctWords.remove(i);
                         i--;
-                    } else if (lastGuess.length() == 1 && correctWords.get(i).contains(lastGuess)) {
+                    }
+                } if (correctWords.size() > 1) {
+                    if (lastGuess.length() == 1 && correctWords.get(i).contains(lastGuess)) {
                         correctWords.remove(i);
                         i--;
                     }
                 }
+            }
+            if (correctWords.size() > 1 || (correctWords.size() == 1 && !correctWords.get(0).contains(lastGuess))) {
                 System.out.println("Incorrect Guess");
-            } else if (correctWords.size() == 1) { //Fair Play
+            } else {
                 if (lastGuess.length() > 1 && correctWords.get(0).equals(lastGuess)) {
-                    System.out.println(populateView(choiceWords));
                     System.out.println("Correct Guess. You Win!");
+                    System.out.println("The word was: " + correctWords.get(0));
                     totalGuesses = 0;
                     won = true;
                 } else if (lastGuess.length() == 1 && correctWords.get(0).contains(lastGuess)) {
                     choiceWords = fillGuesses(lastGuess, correctWords.get(0), choiceWords);
                     System.out.print("Correct Guess.");
-                    //Algorithm to count how to index the guess array
-                    //Algorithm to fill out blank spaces
                     String checkWin = "";
                     for (int i = 0; i < choiceWords.length; i++) {
                         checkWin += choiceWords[i];
                     }
                     if (correctWords.get(0).equals(checkWin)) {
-                        System.out.println(populateView(choiceWords));
                         System.out.println(" You Win!");
+                        System.out.println("The word was: " + correctWords.get(0));
                         totalGuesses = 0;
                         won = true;
                     } else {
@@ -111,10 +113,15 @@ public class Hangman {
                     }
                 }
             }
-            for(int i = 0; i<correctWords.size(); i++) { //temporary
+
+            totalGuesses--;
+
+            //vvv COMMENT THIS OUT IN ACTUAL GAME PLAY TO HIDE WORDS
+            for(int i = 0; i<correctWords.size(); i++) {
                 System.out.println(correctWords.get(i));
             }
-            totalGuesses--;
+            //^^^ Comment
+
         } //while ending (game play)
         if(!won) {
             System.out.println("Out of Guesses. You Lose!");
