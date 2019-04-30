@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="374cbc9a-ed2e-4a10-ac65-9704d0949ee3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Aesop_Fables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/assignment_11/FileSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment_11/FileSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_0_9.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FileSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="436">
+              <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,9 +58,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp_0_18.txt">
+        <entry file="file://$PROJECT_DIR$/temp_5_0.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2063" />
+            <state relative-caret-position="-49868" />
           </provider>
         </entry>
       </file>
@@ -55,7 +76,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>`</find>
+      <find>left</find>
     </findStrings>
+    <replaceStrings>
+      <replace>right</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -101,7 +126,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556581099743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556597370297" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -148,12 +173,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556333574760</updated>
       <workItem from="1556333578679" duration="1012000" />
-      <workItem from="1556568354453" duration="5183000" />
+      <workItem from="1556568354453" duration="18924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6195000" />
+    <option name="totallyTimeSpent" value="19936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -167,7 +192,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
@@ -195,9 +220,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/temp_0_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp_0_2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -211,19 +233,11 @@
         <state relative-caret-position="-2063" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp_0_0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp_0_19.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="166" column="11" lean-forward="true" selection-start-line="166" selection-start-column="11" selection-end-line="166" selection-end-column="11" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_0_20.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2063" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/temp_0_18.txt">
@@ -238,10 +252,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/temp_2_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_3_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_4_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_0_20.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_1_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_1_10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_2_5.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_3_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9788" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_0_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2063" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_0_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2063" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_1_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_4_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9788" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_5_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49868" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="436">
+          <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
