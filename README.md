@@ -1,6 +1,7 @@
 # java_coursework
 Course Work from CIS 1068 at Temple University. Demonstrates learning in Java (OOP) and JUnit (testing).
-___
+
+## Assignments 
 
 ### [Assignment 0](https://github.com/HDell/java_coursework/tree/master/assignment_0/src)
 Description: 
